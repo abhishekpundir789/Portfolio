@@ -6,7 +6,15 @@ img{
     z-index: -1;
 }
 .display-4{
-    padding-top: 20px;
+    padding-top: 285px;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+.display{
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
 }
 
 .Content-container{
@@ -55,4 +63,25 @@ img{
     background: #fff;
     color: #242424;
     transition: all 0.3s ease-out;
+}
+.Content-btns{
+    margin-top: 32px;
+}
+
+.Content-btns .btn{
+    margin: 6px;
+}
+
+@media screen and (max-width:960px){
+    .display-4{
+        margin-top: -150px;
+        color: white;
+        font-size: 50px;
+        font-family: cursive;
+    }
+    .display{
+        color: white;
+        font-size: 50px;
+        font-family: cursive;
+    }   
 }
