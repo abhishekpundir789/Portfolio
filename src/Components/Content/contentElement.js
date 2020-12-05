@@ -29,3 +29,13 @@ height: 100%;
 object-fit: cover;
 background: #232a34;
 `;
+
+export const ContentH1 = styled.h1`
+color: #fff;
+font-size: 48px;
+text-align: center;
+
+@media screen and (max-width: 760px){
+    font-size: 40px;
+}
+`;
