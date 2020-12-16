@@ -58,7 +58,7 @@ tex-align: center;
 export const HeroP = styled.p`
 margin-top: 24px;
 color: #fff;
-font-size: 24px;
+font-size: 30px;
 text-align: center;
 max-width: 600px;
 
