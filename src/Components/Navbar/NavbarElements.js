@@ -7,7 +7,7 @@ background: #000;
 height: 80px;
 display: flex;
 justify-content: center;
-align-items: left;
+align-items: center;
 font-size: 1 rem;
 position: sticky;
 top: 0;
@@ -25,17 +25,17 @@ height: 80px;
 z-index: 1;
 width: 100%;
 padding: 0 24px;
-max-width: 110px;
+max-width: 1100px;
 `;
 
-export const Navlogo = styled(LinkR)`
+export const NavLogo = styled(LinkR)`
 color: #fff;
 justify-self: flex-start;
 cursor: pointer;
 font-size: 1.5rem;
 display: flex;
 align-items: center;
-margin-right: 24px;
+margin-left: 24px;
 font-weight: bold;
 text-decoration: none;
 `;

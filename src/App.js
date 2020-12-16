@@ -6,7 +6,7 @@ import Home from './pages';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Router>
         <Home />
       </Router>
