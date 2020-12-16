@@ -58,13 +58,13 @@ transition: 0.2s ease-in-out;
 text-decoration: none;
 color: #fff;
 
-&.hover{
+&:hover{
     color: #01bf71;
     transition: 0.2 ease-in-out;
 }
 `;
 
-export const SideBtnWrp = styled.div`
+export const SideBtnWrap = styled.div`
 display: flex;
 justify-content: center;
 `;
