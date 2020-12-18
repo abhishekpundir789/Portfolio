@@ -5,6 +5,7 @@ import HeroSection from '../Components/HeroSection';
 import InfoSection from '../Components/InfoSection';
 import { homeObjOne } from '../Components/InfoSection/Data';
 import Project from '../Components/Project';
+import Contact from '../Components/Contact';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -20,6 +21,7 @@ const Home = () => {
          <HeroSection />
          <InfoSection {...homeObjOne}/>
          <Project />
+         <Contact />
         </>
     )
 }
