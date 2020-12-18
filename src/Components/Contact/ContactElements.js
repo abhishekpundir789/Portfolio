@@ -1,73 +1,86 @@
-import { MdArrowForward, MdKeyboardArrowRight } from 'react-icons/md';
+
 import styled from 'styled-components'
 
 export const ContactContainer = styled.div`
-height: 800px;
+min-height: 692px;
+bottom: 0;
+left: 0;
+right: 0;
+top: 0;
+z-index: 0;
+overflow: hidden;
+background: #fff;
+`;
+
+export const FormWrap= styled.div`
+height: 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
-background: '#fff';
+`;
 
-@media screen and (max-width: 768px){
-    height: 1100px;
-}
+export const FormContent = styled.div`
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
 
-@media screen and (max-width: 768px){
-    height: 1300px;
+@media screen and (max-width: 480px){
+    padding: 10px;
 }
 `;
 
-export const ContactWrapper = styled.div`
-max-width: 1000px;
-margin: 0 auto;
+export const Form = styled.form`
+background: #010101;
+max-width: 400px;
+height: auto;
+widht: 100%;
+z-index: 1;
 display: grid;
-align-items: center;
-grid-gap: 16px;
-padding: 0 50px;
+margin: 0 auto;
+padding: 80px 32px;
+border-radius: 4px;
+box-shadow: 0 1px 3px rgba(0,0,0,0.9);
+
+@media screen and (max-width: 400px){
+    padding: 32px 32px;
+}
 `;
 
 export const ContactH1 = styled.h1`
-font-size = 2.5rem;
-color: #01bf71;
-margin-bottom: 64px;
-
-@media screen and (max-width: 480px){
-    font-size: 2rem;
-}
+font-size = 20px;
+color: #fff;
+margin-bottom: 40px;
+font-weight: 400;
+text-align: center;
 `;
 
-export const ContactH2 = styled.h2`
-font-size: 1rem;
-margin-bottom: 10px;
+export const FormLabel = styled.label`
+font-size: 14px;
+margin-bottom: 8px;
+color: #fff;
 `;
 
-export const ContactForm = styled.div`
-align-items: center;
-background: #0106060; 
+export const FormInput = styled.input`
+padding: 16px 16px;
+margin-bottom: 32px;
+border: none;
+border-radius: 4px;
 `;
 
-export const ContactLabel = styled.label`
-font-size: 1rem;
-`;
-
-export const ContactInput = styled.input`
-max-width: 500px;
-`;
-
-export const ContactBtnWrapper = styled.div`
-margin-top: 32px;
-display: flex;
-flex-direction: column;
-align-items: center;
-`;
-
-export const ArrowForward = styled(MdArrowForward)`
-margin-left: 8px;
+export const FormButton = styled.button`
+background: #01bf71;
+padding: 16px 0;
+border: none;
+border-radius: 4px;
+color: #fff;
 font-size: 20px;
+cursor: pointer;
 `;
 
-export const ArrowRight = styled(MdKeyboardArrowRight)`
-margin-left: 8px;
-font-size: 20px;
+export const Text = styled.span`
+text-align: center;
+margin-top: 24px;
+color: #fff;
+font-size: 14px;
 `;
