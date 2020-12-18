@@ -5,6 +5,7 @@
 <li>It will also inlcude Portfolio Page in which my educational background, past work experience and projects will be there. </li>
 <li>There will be a contact page through which anyone have any questions can contact me or (if want to) appreciate my work.</li>
 <li>Some of the link for my social media profiles. </li>
+<li>The Portfolio project made with React smooth scroll effects and passing data without hardcoding everytime</li>
 </ul> 
 <ul><h5>Tehnologies used for wireframe and prototypes:</h5>
 <li>Figma</li>
