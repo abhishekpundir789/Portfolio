@@ -17,34 +17,17 @@ export const homeObjOne = {
 
 export const homeObjTwo = {
     id: 'portfolio',
-    lightBg: true,
+    lightBg: false,
     lihtText: false,
-    lightTextDesc: false,
+    lightTextDesc: true,
     topLine: 'Projects',
-    headline: 'I am learning System Software Development from BCIT, Vancouver, BC, Canada.',
-    description: 'I did Bachelors in Sceince(C.S) from India and Graduate Certificate in IT from Algoma University, Brampton, ON, Canada. Also through this course I will be having real time experience on various projects in different languages.',
+    headline: 'Here are some list of projects:',
+    description: '1) BC Tourism Website with only HTML and CSS. 2) Food Order Website Using JavaScript. 3) eCommerce Website using HTML, CSS and JavaScript. 4) MovieDB App using React. 5) eCommerce Website using Asp-Net C# ',
     buttonLabel: 'Get Started',
-    imgStart: true,
+    imgStart: false,
     img: require('../../images/svg-1.svg'),
     alt: 'Profile',
-    dark: false,
-    primary: false,
-    darkText: true
-};
-
-export const homeObjThree = {
-    id: 'contact',
-    lightBg: true,
-    lihtText: false,
-    lightTextDesc: false,
-    topLine: 'Contact Me',
-    headline: 'I am learning System Software Development from BCIT, Vancouver, BC, Canada.',
-    description: 'I did Bachelors in Sceince(C.S) from India and Graduate Certificate in IT from Algoma University, Brampton, ON, Canada. Also through this course I will be having real time experience on various projects in different languages.',
-    buttonLabel: 'Get Started',
-    imgStart: true,
-    img: require('../../images/svg-1.svg'),
-    alt: 'Profile',
-    dark: false,
-    primary: false,
-    darkText: true
+    dark: true,
+    primary: true,
+    darkText: false
 };
