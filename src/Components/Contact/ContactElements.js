@@ -49,7 +49,15 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.9);
 
 export const ContactH1 = styled.h1`
 font-size = 20px;
-color: #fff;
+color: #01bf71;
+margin-bottom: 40px;
+font-weight: 400;
+text-align: center;
+`;
+
+export const FormH2 = styled.h2`
+font-size = 18px;
+color: #01bf71;
 margin-bottom: 40px;
 font-weight: 400;
 text-align: center;
