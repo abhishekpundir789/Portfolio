@@ -1,5 +1,5 @@
 import React from 'react'
-import {ContactContainer, ContactH1, FormWrap, FormContent, Form, FormH2, FormLabel, FormInput} from './ContactElements'
+import {ContactContainer, ContactH1, FormWrap, FormContent, Form, FormH2, FormLabel, FormInput, Button} from './ContactElements'
 
 const Contact = () => {
     
@@ -16,6 +16,9 @@ const Contact = () => {
                         <FormInput type='email' required></FormInput>
                         <FormLabel htmlFor='for'>Your Message</FormLabel>
                         <FormInput type ='message'></FormInput>
+                        <Button primary="true" dark="true">
+                    Submit
+                </Button>
                     </Form>
                 </FormContent>
             </FormWrap>
